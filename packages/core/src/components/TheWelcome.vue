@@ -16,7 +16,7 @@ const { t } = useI18n();
     <i18n-t keypath="officialDocContent" tag="div">
       <template #link>
         <a href="https://vuejs.org/" target="_blank" rel="noopener">
-          {{ t("officialDocContent") }}
+          {{ t("officialDoc") }}
         </a>
       </template>
     </i18n-t>
