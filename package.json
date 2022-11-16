@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build -w @vue-i18n-monorepo/core",
+    "dev": "npm run build && npm run dev -w @vue-i18n-monorepo/web"
   },
   "repository": {
     "type": "git",
