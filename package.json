@@ -1,0 +1,26 @@
+{
+  "name": "vue-i18n-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrogehlen/vue-i18n-monorepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrogehlen/vue-i18n-monorepo/issues"
+  },
+  "homepage": "https://github.com/leandrogehlen/vue-i18n-monorepo#readme",
+  "devDependencies": {
+    "typescript": "~4.7.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
